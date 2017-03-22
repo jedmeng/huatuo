@@ -1,0 +1,11 @@
+{
+  "list" : [
+    "{baseUrl}/",
+    "{baseUrl}/foo",
+    "{baseUrl}/foo?statuscode=404",
+    "{baseUrl}/foo?statuscode=500",
+    "{baseUrl}/foo?jump=/foo",
+    "{baseUrl}/bar",
+    "{baseUrl}/bar?jump=/foo"
+  ]
+}

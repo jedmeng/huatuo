@@ -1,0 +1,7 @@
+{baseUrl}/
+{baseUrl}/foo
+{baseUrl}/foo?statuscode=404
+{baseUrl}/foo?statuscode=500
+{baseUrl}/foo?jump=/foo
+/bar
+/bar?jump=/foo

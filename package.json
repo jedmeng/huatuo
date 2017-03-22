@@ -1,0 +1,47 @@
+{
+  "name": "huatuo",
+  "version": "1.0.1",
+  "description": "页面链接校验工具",
+  "author": "mengzhijie <mengzhijie@360.cn>",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jedmeng/huatuo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jedmeng/huatuo/issues"
+  },
+  "maintainers": [
+    {
+      "name": "jedmeng",
+      "email": "jedmeng@outlook.com"
+    }
+  ],
+  "main": "index.js",
+  "scripts": {
+    "dev": "babel src --out-dir lib --watch",
+    "build": "babel src --out-dir lib",
+    "prepublish": "npm run build",
+    "test": "mocha --compilers js:babel-register"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "dependencies": {
+    "bufferhelper": "^0.2.1",
+    "request": "^2.79.0",
+    "thunkify": "^2.1.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-es2015-loose": "^7.0.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  },
+  "license": "MIT"
+}
